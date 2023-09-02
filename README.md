@@ -1,1 +1,3 @@
-# Projeto_1A_TecWeb
+# TecWeb - Projeto 1A
+
+Ananda Júlia Galvão Campelo
