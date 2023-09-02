@@ -1,0 +1,20 @@
+<li class="card">
+    <h3 class="card-title">{title}</h3>
+    <div class="card-content">
+      <p>{details}</p>
+    </div>
+    <div class="card-actions">
+      <form method="post" action="/edit">
+        <input type="hidden" name="id" value="{id}">
+        <button class="btn-edit" type="submit">
+          <img src="../../img/edit.png" style="width: 20px; height: 20px; position: fixed; top: 5px; right: 25px">
+        </button>
+      </form>
+      <form method="post" action="/delete">
+        <input type="hidden" name="id" value="{id}">
+        <button class="btn-delete" type="submit">
+          <img src="../../img/trash-closed.png" style="width: 20px; height: 20px; position: fixed; top: 5px; right: 0px">
+        </button>
+      </form>
+    </div>
+  </li>
